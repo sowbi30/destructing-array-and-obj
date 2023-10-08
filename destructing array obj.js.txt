@@ -1,0 +1,13 @@
+// destructing the array in objects
+var obj = {
+    name :"Thiru",
+    title : "mentor"};
+    var {name,title}=obj;
+    console.log(title);
+    // mentor
+    
+    // destructing the array
+    let arr =["guvi","geek"];
+    let [s1,s2]=arr;
+    console.log(s1);
+    //guvi
